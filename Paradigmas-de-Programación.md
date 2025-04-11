@@ -131,13 +131,3 @@ void main() async {
 **Explicación:** Se usa un `Stream` para emitir los valores de la lista y `reduce` para sumar los datos cuando estén disponibles.
 
 ---
-
-## 💡 Comparación: Suma de una lista
-
-Todos los ejemplos anteriores realizan la misma tarea de sumar los elementos de una lista `[1, 2, 3, 4]`, usando el estilo correspondiente a cada paradigma. Esto demuestra cómo una misma solución puede variar en estructura según el enfoque de programación.
-
----
-
-## ✅ Conclusión
-
-Dart es un lenguaje moderno y flexible que permite usar varios paradigmas: desde el orientado a objetos (por defecto), hasta el funcional, declarativo y reactivo, especialmente en combinación con Flutter.
