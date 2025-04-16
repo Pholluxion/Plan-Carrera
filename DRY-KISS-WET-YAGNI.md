@@ -1,10 +1,8 @@
----
 
-# 📘 Principios de Buenas Prácticas en Dart
+# Principios de Buenas Prácticas en Dart
 
 Este documento cubre los principales principios de diseño y desarrollo de software aplicados en Dart: **SOLID, DRY, KISS, WET y YAGNI**. Cada principio incluye una breve descripción y ejemplos prácticos.
 
----
 
 ##  1. SOLID
 
