@@ -1,6 +1,5 @@
 ### 1. **DRIVERS de arquitectura**
 
-**Definición formal:**
 Los *architecture drivers* son los factores clave que influyen directamente en el diseño arquitectónico de un sistema de software. Estos factores representan consideraciones fundamentales que deben ser abordadas y guiadas por las decisiones arquitectónicas.
 
 Los *drivers* se clasifican en:
@@ -39,7 +38,6 @@ Funciones o capacidades que el sistema debe ofrecer a los usuarios o integracion
 
 ### 2. **Trade-off**
 
-**Definición formal:**
 Un *trade-off* arquitectónico es una decisión en la que se optimiza un conjunto de propiedades del sistema a expensas de otras. Surge debido a la imposibilidad de maximizar simultáneamente todos los atributos de calidad.
 
 > *Ejemplo:* "Mejorar la seguridad mediante cifrado puede reducir el rendimiento del sistema."
@@ -63,7 +61,6 @@ Estos *drivers* influirán en decisiones como el tipo de arquitectura (por ejemp
 
 ### 4. **ADD – Attribute-Driven Design**
 
-**Definición formal:**
 *Attribute-Driven Design (ADD)* es un método de diseño arquitectónico basado en la priorización de atributos de calidad. ADD parte de los *drivers* de arquitectura y los traduce en decisiones estructurales utilizando patrones y tácticas que permiten satisfacer dichos atributos.
 
 > Referencia: Clements, Kazman, Klein – *"Documenting Software Architectures"*
@@ -72,7 +69,6 @@ Estos *drivers* influirán en decisiones como el tipo de arquitectura (por ejemp
 
 ### 5. **Modelo 4+1 de vistas arquitectónicas**
 
-**Definición formal:**
 El modelo 4+1 de vistas de arquitectura, propuesto por Philippe Kruchten, organiza la descripción de la arquitectura de software en cinco vistas interrelacionadas que abordan diferentes intereses de los stakeholders:
 
 1. **Vista lógica:** modela la funcionalidad del sistema mediante diagramas de clases y objetos.
@@ -87,7 +83,6 @@ El modelo 4+1 de vistas de arquitectura, propuesto por Philippe Kruchten, organi
 
 ### 6. **DDD – Domain-Driven Design**
 
-**Definición formal:**
 *Domain-Driven Design (DDD)* es un enfoque de modelado de software centrado en el dominio del problema, que promueve la alineación entre los modelos de negocio y el diseño del software. DDD utiliza un modelo de dominio rico expresado en un *lenguaje ubicuo* compartido entre desarrolladores y expertos del negocio.
 
 > Términos clave: entidad, valor, agregado, repositorio, servicio de dominio, contexto delimitado (*bounded context*).
@@ -98,7 +93,6 @@ El modelo 4+1 de vistas de arquitectura, propuesto por Philippe Kruchten, organi
 
 ### 7. **TDD – Test-Driven Development**
 
-**Definición formal:**
 *Test-Driven Development (TDD)* es una metodología de desarrollo donde las pruebas automatizadas se escriben antes del código funcional. El ciclo de trabajo incluye tres fases:
 
 1. **Red:** escribir una prueba que falla.
@@ -111,7 +105,6 @@ El modelo 4+1 de vistas de arquitectura, propuesto por Philippe Kruchten, organi
 
 ### 8. **BDD – Behavior-Driven Development**
 
-**Definición formal:**
 *Behavior-Driven Development (BDD)* es una metodología de desarrollo ágil centrada en el comportamiento del sistema descrito en lenguaje natural. Busca la colaboración activa entre desarrolladores, QA y negocio mediante ejemplos y escenarios que definen el comportamiento esperado.
 
 > Utiliza herramientas como Cucumber o SpecFlow para expresar pruebas con lenguaje estructurado tipo Gherkin.
